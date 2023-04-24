@@ -1,0 +1,6 @@
+<div class="d-grid gap-2">
+  <button *ngFor="let cat of categories" [class]="getBtnClass(cat)"
+          (click)="selectCategory.emit(cat)">
+      {{ cat }}
+  </button>
+</div>
