@@ -6,6 +6,18 @@ This file contains smaller errors that are unlikely to prevent the code examples
 
 **Chapter 4**
 
+On page 88, this sentence:
+
+>   The #getTaxString method can only be accessed from within the TaxedProduct class and it is an error to use it elsewhere, as shown in listing 4.15.
+
+should be:
+
+>   The **#getDetail** method can only be accessed from within the TaxedProduct class and it is an error to use it elsewhere, as shown in listing 4.15.
+
+(Thanks to Tai for reporting this problem)
+
+---
+
 On page 102, the name of `calcTaxandSum` function in Listing 4.30 should named  `calcTaxAndSum` (with a capital A) to match the name used in Listing 4.31.
 
 (Thanks to Joe Yakich for reporting this problem)
