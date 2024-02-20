@@ -74,4 +74,8 @@ On page 266, the text following Listing `11.19` should be:
 
 ---
 
+**Chapter 16**
 
+On page 414, the captions for listings 16.16 and 16.17 specify file names that are all lowercase and that do not match the import statements in later listings.
+
+(Thanks to Joe Yakich for reporting this problem)
