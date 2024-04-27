@@ -63,6 +63,32 @@ On page 152, the text that describes the different types uses `false` as an exam
 
 ---
 
+**Chapter 8**
+
+On page 182, the sentence at the end of the page should be:
+
+>   The addition of the rest parameter means that the calculateTax function can be called with one or more arguments: the first argument is assigned to the amount parameter, the **second** argument (if there is one) is assigned to the discount parameter, and any other arguments are added to the extraFees parameter array.
+
+(Thanks to Fernando Aluzzi for reporting this problem)
+
+---
+
+On page 186, the sentence that follows Listing 8.15 should be:
+
+>   When the noImplicitReturns setting is true, the compiler will report an error when there are paths through functions that don’t explicitly produce a result with the **return** keyword or throw an error. 
+
+(Thanks to Fernando Aluzzi for reporting this problem)
+
+---
+
+**Chapter 10**
+
+On page 223, not all of the changes to Listing 10.6 are marked in bold. The definition of the `products` variable has also changed and this statement should also be bold.
+
+(Thanks to Lynn for reporting this problem)
+
+---
+
 **Chapter 11**
 
 On page 266, the text following Listing `11.19` should be:
