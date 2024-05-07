@@ -4,6 +4,21 @@ This file contains smaller errors that are unlikely to prevent the code examples
 
 ---
 
+**Chapter 2**
+
+On page 14, this sentence:
+
+>   This file follows the popular convention of calling the main file for an application index, followed by the ts file extension to indicate the file contains JavaScript 
+code.
+
+should be:
+
+>   This file follows the popular convention of calling the main file for an application index, followed by the ts file extension to indicate the file contains **TypeScript** code.
+
+(Thanks to Phil Puglisi for reporting this problem)
+
+---
+
 **Chapter 4**
 
 On page 88, this sentence:
