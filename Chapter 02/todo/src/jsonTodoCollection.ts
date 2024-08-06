@@ -11,7 +11,7 @@ export class JsonTodoCollection extends TodoCollection {
     private database: LowSync<schemaType>;
 
     constructor(public userName: string, todoItems: TodoItem[] = []) {
-        super(userName, []);
+        super(userName, todoItems);
         this.database = new LowSync(new JSONFileSync("Todos.json"));
         this.database.read();
 
