@@ -43,7 +43,7 @@ function promptComplete(): void {
             ({name: item.task, value: item.id, checked: item.complete}))
     }).then(answers => {
         let completedTasks = answers["complete"] as number[];
-        collection.getTodoItems(true).forEach(item => 
+        collection.getTodoItems(showCompleted).forEach(item => 
             collection.markComplete(item.id, 
                 completedTasks.find(id => id === item.id) != undefined));
         promptUser();
